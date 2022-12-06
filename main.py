@@ -57,7 +57,7 @@ def main() -> None:
         try:
             model_dim = int(args.model_dim)
         except:
-            model_dim = 2048
+            model_dim = 512
 
         try:
             blobs_folder_path = args.blobs_folder_path
