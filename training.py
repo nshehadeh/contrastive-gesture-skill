@@ -98,7 +98,7 @@ def train_encoder_decoder_embeddings(net: encoderDecoder, lr: float, num_epochs:
         os.makedirs(weights_save_path)
 
     gesture_dataset = gestureBlobDataset(blobs_folder_path = blobs_folder_path)
-    dataloader = DataLoader(dataset = gesture_dataset, batch_size = 64, shuffle = False, collate_fn = size_collate_fn)
+    dataloader = DataLoader(dataset = gesture_dataset, batch_size = 32, shuffle = False, collate_fn = size_collate_fn)
 
     loss_function = torch.nn.MSELoss()
     # loss_function = torch.nn.KLDivLoss()
