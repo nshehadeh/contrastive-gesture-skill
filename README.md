@@ -1,5 +1,6 @@
 # Multimodal learning
-
+Example contrastive model: 
+![alt_text](contrastive2.png)
 How to use this repository:
 1) Extract optical flows from the video
 2) Create data blobs
