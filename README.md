@@ -1,4 +1,5 @@
 # Multimodal learning
+See report.pdf for full project report
 Example contrastive model: 
 ![alt_text](contrastive2.png)
 How to use this repository:
